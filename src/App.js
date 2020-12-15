@@ -40,11 +40,11 @@ export default class App extends React.Component {
               <h1 className="black"> Heyo~ </h1>
               <div class="flex_row">
                 <h1 className="black">It's</h1>
-                <h1>  &nbsp;*Insert Name Here*</h1>
+                <h1>  &nbsp;Vivian</h1>
               </div>
               <p className="black italic">Designer, teacher, and everything in between :)</p>
             </div>
-            <img className="propic" src="/images/anime_pic.png" alt="blah" />
+            <img className="propic" src="/images/ProfilePic.JPG" alt="blah" />
             <img src="/images/pencil.png" alt="blah" class="pencil spacing" />
           </div>
 
