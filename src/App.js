@@ -15,7 +15,9 @@ export default class App extends React.Component {
     return (
       <div class="main">
         <Navbar className="spacing main" expand="lg">
-          <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
+          <Navbar.Brand href="#home">
+            Vivian Li
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
@@ -50,15 +52,45 @@ export default class App extends React.Component {
 
           <div class="spacing top_margin black flex_column" id="link">
             <h1>About Me</h1>
-            <p>I am currently a junior at Brown University studying Computer Science and Psychology with a minor in Education! Thanks for coming💖 </p>
-            <img src="/images/scene_pic.jpg" alt="blah" class=" project_image spacing" />
+            <p class="gborder ">I am currently a junior at Brown University studying Computer Science and Psychology with a minor in Education!
+            You might be wondering what exactly is between being a designer and a teacher. Allow me to explain: my approach to design is largely pedagogical!
+            Inspired by my 6 years of teaching 18 students, I realized that designing user experience is largely like lesson-planning:
+            it should be engaging(captivating), contextualized(intuitive), and ultimately student-led(user-centered).
+          
+            <div class="flex_row spacing top_margin2">
+                <div class="flex_column dark">
+                  <h2 class="uline">UI/UX Design</h2>
+                  <ul>
+                    <li class="top_margin3">captivating design</li>
+                    <li>intuitively constructed and used &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                    <li>user-centered</li>
+                  </ul>
+
+                </div>
+
+                <div class="flex_column otext">
+                  <h2 class="uline">Lesson Planning</h2>
+                  <ul>
+                    <li class="top_margin3">make material engaging</li>
+
+                    <li>contextualize based on the student's experience</li>
+
+                    <li>encourage student-led learning</li>
+                  </ul>
+
+                </div>
+
+              </div>
+            </p>
+
           </div>
 
 
 
           <div class="projects flex_column" >
             <div className=" top_margin ">
-              <h1 className="spacing black">Projects</h1>
+              <h1 className="black">Projects</h1>
             </div>
 
 
@@ -88,7 +120,7 @@ export default class App extends React.Component {
                 </div>
               </a>
               <a href="https://glacial-cliffs-83766.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="flex_column">
-                <img class="project_image2" src="/images/Project1_Image.png" alt="blah" ></img>
+                <img class="project_image2" src="/images/Quell.png" alt="blah" ></img>
               </a>
 
             </div>
@@ -123,7 +155,7 @@ export default class App extends React.Component {
                 </div>
               </a>
               <a href="https://infinite-shelf-66825.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="flex_column">
-                <img class="project_image3" src="/images/color_mouse.jpg" alt="blah" ></img>
+                <img class="project_image" src="/images/color_mouse.jpg" alt="blah" ></img>
               </a>
 
             </div>

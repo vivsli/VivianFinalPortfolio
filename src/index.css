@@ -12,9 +12,17 @@ code {
     monospace;
 }
 
+li {
+  font-size: large;
+}
+
+.uline {
+  text-decoration: underline;
+}
+
 .main {
-  background-color:#BCF2E0;
-  color:#e78a5b;
+  background-color:#cefcf9;
+  color: #ff9100;
   margin: 3px;
   padding: 3px;
   align-items: center;
@@ -34,11 +42,18 @@ code {
   align-items: center;
 }
 
-.border2 {
+.oborder {
   border-radius: 25px;
-  border: 5px solid #e78a5b;
+  border: 5px solid  #ffae00;;
   padding: 30px;
   max-width: 100%;
+}
+
+.gborder {
+  border-radius: 25px;
+  border: 5px solid   rgb(119, 119, 119);;
+  padding: 30px;
+  max-width: 70%;
 }
 
 .project_image{
@@ -46,7 +61,7 @@ code {
   padding:3px;
   border-radius: 25px;
   max-width: 95%;
-  border: 5px solid #e78a5b;
+  border: 5px solid #ffae00;;
 }
 
 .project_image2{
@@ -54,16 +69,10 @@ code {
   padding:3px;
   border-radius: 25px;
   max-width: 45%;
-  border: 5px solid #e78a5b;
+  max-height: 45%;
+  border: 5px solid #ffae00;;
 }
 
-.project_image3{
-  margin:5px;
-  padding:3px;
-  border-radius: 25px;
-  max-width: 75%;
-  border: 5px solid #e78a5b;
-}
 
 .spacing {
   margin: 3px;
@@ -80,7 +89,7 @@ code {
 .propic {
   border-radius: 25px;
   max-width: 25%;
-  border: 5px solid #e78a5b;
+  border: 5px solid #ffae00;
 }
 
 .black {
@@ -93,9 +102,16 @@ code {
 
 
 .top_margin {
-  margin-top: 100px;
+  margin-top: 90px;
 }
 
+.top_margin2 {
+  margin-top: 50px;
+}
+
+.top_margin3 {
+  margin-top: 15px;
+}
 .container {
   position: relative;
   text-align: center;
@@ -113,7 +129,7 @@ code {
 }
 
 .decor{
-  max-width: 10%;
+  max-width: 15%;
 }
 
 .pencil {
@@ -127,4 +143,17 @@ code {
 .projects {
   display: flex;
   justify-content: center;
+}
+
+.otext {
+  color:  #ff9100;
+}
+
+.vl {
+  border-left: 6px solid rgb(119,119,119);
+  height: 250px;
+}
+
+.dark {
+  color: #1ca89f;
 }
