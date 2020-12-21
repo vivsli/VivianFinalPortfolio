@@ -28,9 +28,9 @@ export default class App extends React.Component {
                 <NavDropdown.Item href="#action/3.2">The Quell</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.1">My Art Cart</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.0">Friends of Mice</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">Resume</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.4">A/B Testing</NavDropdown.Item>
               </NavDropdown>
+              <Nav.Link href="#resume"><a href="vivians_resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -94,9 +94,9 @@ export default class App extends React.Component {
             </div>
 
 
-            <div class="flex_column top_margin" id="action/3.3">
-              <a href="https://warm-temple-50434.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                <h2 class="white">
+            <div class="flex_column" id="action/3.3">
+              <a href="Redesigning_Harvard/redesign.html" target="_blank" rel="noopener noreferrer">
+                <h2 class="harvard">
                   Redesigning Harvard: Responsiveness Redesign
                 </h2>
                 <div class="black">
@@ -104,62 +104,79 @@ export default class App extends React.Component {
                   <p>(If you are the professor of that website, well, no offense intended.)</p>
                 </div>
               </a>
-              <a href="https://warm-temple-50434.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                <img class="project_image" src="/images/harvard_logo.png" alt="blah" ></img>
+              <a href="Redesigning_Harvard/redesign.html" target="_blank" rel="noopener noreferrer">
+                <img class="harvard_img" src="/images/harvard_logo.png" alt="blah" ></img>
               </a>
             </div>
 
             <div class="flex_column top_margin" id="action/3.2">
-              <a href="https://glacial-cliffs-83766.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                <h2 class="white spacing">
+              <a href="VivianIterative/iterative.html" target="_blank" rel="noopener noreferrer">
+                <h2 class="iterative">
                   The Quell: Iterative Design
               </h2>
                 <div class="black">
-                  <p>What's better than a console that let's you excercise and game at the same time?</p>
-                  <p>A console that ALSO has its own streamline website to make it look even better!</p>
+                  <p>Using only The Quell's concept, a console that lets you game and exercise at the same time,
+                  </p>
+                  <p>my two friends and I designed our own website that could be used to promote the startup's product, 
+                  </p>
+                  <p>allow users to purchase the product, and enable users to contact the company with any questions of feedback</p>                  
                 </div>
               </a>
-              <a href="https://glacial-cliffs-83766.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="flex_column">
-                <img class="project_image2" src="/images/Quell.png" alt="blah" ></img>
+              <a href="VivianIterative/iterative.html" target="_blank" rel="noopener noreferrer" class="flex_column">
+                <img class="iterative_img" src="/images/Quell.png" alt="blah" ></img>
               </a>
 
             </div>
 
             <div class="flex_row top_margin" id="action/3.1">
-              <a href="https://peaceful-tor-21219.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                <h2 class="white">
+              <a href="Development_Handin/development.html" target="_blank" rel="noopener noreferrer">
+                <h2 class="development">
                   My Art Cart: Creating my React App in Javascript
                 </h2>
                 <div class="black">
                   <p>Want to see some stuff I've drawn? Want to know when I drew it? What I drew it with? If it has won any awards?</p>
-                  <p>Want to know HOW LONG IT TOOK ME??</p>
+                  <p>Want to know how LONG it took me?</p>
                   <p>Well then, this should interest you ;)</p>
                 </div>
               </a>
-              <a href="https://peaceful-tor-21219.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="flex_column">
-                <img class="project_image2" src="/images/Project3_Image.png" alt="blah" ></img>
+              <a href="Development_Handin/development.html" target="_blank" rel="noopener noreferrer" class="flex_column">
+                <img class="development_img" src="/images/Project3_Image.png" alt="blah" ></img>
               </a>
 
             </div>
 
             <div class="flex_row top_margin" id="action/3.0">
-              <a href="https://infinite-shelf-66825.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                <h2 class="white">
-                  Friends of Mice: Personas and Story Boarding
+              <a href="Personas/personas.html" target="_blank" rel="noopener noreferrer">
+                <h2 class="personas">
+                  Friends of Mice: Personas and Storyboarding
                 </h2>
                 <div class="black">
                   <p>How do you like your mice?</p>
                   <p>Simple, with dash of tech saviness in the form of a wireless USB?</p>
                   <p>Luxurious, with a sturdy wirecord as an appetizer, 8 rebindable buttons for the main course, and a splash of RGB LED lights for dessert?</p>
+                  <p> Through this project, I investigated the different kinds of computer mice users and created personas and storyboards based on my interviews of real people</p>
 
                 </div>
               </a>
-              <a href="https://infinite-shelf-66825.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="flex_column">
-                <img class="project_image" src="/images/color_mouse.jpg" alt="blah" ></img>
+              <a href="Personas/personas.html" target="_blank" rel="noopener noreferrer" class="flex_column">
+                <img class="personas_img" src="/images/color_mouse.jpg" alt="blah" ></img>
               </a>
-
             </div>
-
+            <div class="flex_row top_margin" id="action/3.4">
+              <a href="https://gentle-coast-77006.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                <h2 class="abtesting">
+                  A/B Testing
+                </h2>
+                <div class="black">
+                  <p> People say that stores use the price tag $9.99 instead of $10 because it makes it looks cheaper</p>
+                  <p> But is this really true? Are online shoppers REALLY more likely to buy items with the first price tag?</p>
+                  <p> I let the stats speak for themselves</p>
+                </div>
+              </a>
+              <a href="https://gentle-coast-77006.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="flex_column">
+                <img class="abtesting_img" src="/images/anime_pic.png" alt="blah" ></img>
+              </a>
+            </div>
           </div>
         </div>
       </div>

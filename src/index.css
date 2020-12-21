@@ -157,3 +157,95 @@ li {
 .dark {
   color: #1ca89f;
 }
+
+.harvard {
+  color:rgb(216, 48, 48);
+  
+}
+
+.harvard_img {
+  margin:5px;
+  padding:3px;
+  border-radius: 25px;
+  max-width: 95%;
+  border: 5px solid rgb(216, 48, 48);;
+}
+
+.harvard_img:hover {
+  transition: 0.2s ease-in-out;
+  transform: scale(1.03);
+}
+
+.iterative {
+  color: rgb(71, 151, 221);
+  
+}
+
+.iterative_img {
+  margin:5px;
+  padding:3px;
+  border-radius: 25px;
+  max-width: 45%;
+  max-height: 45%;
+  border: 5px solid  rgb(71, 151, 221);;
+}
+
+.iterative_img:hover {
+  transition: 0.2s ease-in-out;
+  transform: scale(1.03);
+}
+
+.development {
+  color: rgb(127, 177, 124);
+  
+}
+
+.development_img {
+  margin:5px;
+  padding:3px;
+  border-radius: 25px;
+  max-width: 45%;
+  max-height: 45%;
+  border: 5px solid rgb(127, 177, 124);;
+}
+
+.development_img:hover {
+  transition: 0.2s ease-in-out;
+  transform: scale(1.03);
+}
+
+.personas {
+  color:rgb(209, 127, 201);
+  
+}
+
+.personas_img {
+  margin:5px;
+  padding:3px;
+  border-radius: 25px;
+  max-width: 95%;
+  border: 5px solid rgb(209, 127, 201);;
+}
+
+.personas_img:hover {
+  transition: 0.2s ease-in-out;
+  transform: scale(1.03);
+}
+
+.abtesting {
+  color: #ffae00;
+  
+}
+
+.abtesting_img {
+  margin:5px;
+  padding:3px;
+  border-radius: 25px;
+  max-width: 45%;
+  border: 5px solid  #ffae00;;
+}
+
+.abtesting_img:hover {
+  transition: 0.2s ease-in-out;
+  transform: scale(1.03);
+}
