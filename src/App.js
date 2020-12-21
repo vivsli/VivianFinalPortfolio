@@ -23,12 +23,15 @@ export default class App extends React.Component {
             <Nav className="mr-auto">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#link">About</Nav.Link>
-              <NavDropdown title="Projects" id="basic-nav-dropdown">
+              <NavDropdown title="Design Projects" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.3">Redesigning Harvard</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">The Quell</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.1">My Art Cart</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.0">Friends of Mice</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.4">A/B Testing</NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown title="3D Animation Projects" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/2.3">Always Right Short Film</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="#resume"><a href="vivians_resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></Nav.Link>
             </Nav>
@@ -90,7 +93,7 @@ export default class App extends React.Component {
 
           <div class="projects flex_column" >
             <div className=" top_margin ">
-              <h1 className="black">Projects</h1>
+              <h1 className="black"> Design Projects</h1>
             </div>
 
 
@@ -163,7 +166,7 @@ export default class App extends React.Component {
               </a>
             </div>
             <div class="flex_row top_margin" id="action/3.4">
-              <a href="https://gentle-coast-77006.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+              <a href="ABtesting/abtesting.html" target="_blank" rel="noopener noreferrer">
                 <h2 class="abtesting">
                   A/B Testing
                 </h2>
@@ -173,10 +176,21 @@ export default class App extends React.Component {
                   <p> I let the stats speak for themselves</p>
                 </div>
               </a>
-              <a href="https://gentle-coast-77006.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="flex_column">
+              <a href="ABtesting/abtesting.html" target="_blank" rel="noopener noreferrer" class="flex_column">
                 <img class="abtesting_img" src="/images/anime_pic.png" alt="blah" ></img>
               </a>
             </div>
+          </div>
+          <div class="projects flex_column top_margin" id="action/2.3">
+            <div className=" top_margin ">
+              <h1 className="black"> 3D Animation Projects</h1>
+            </div>
+            <h2 class="film top_margin">
+                  Always Right: A Short Film
+              </h2>
+            <iframe title="alwaysright" width="1280" height="720"
+                src="https://www.youtube.com/embed/BPSvNsn7N08">
+            </iframe>
           </div>
         </div>
       </div>
