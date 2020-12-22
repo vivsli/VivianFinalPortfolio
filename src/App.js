@@ -98,7 +98,7 @@ export default class App extends React.Component {
 
 
             <div class="flex_column" id="action/3.3">
-              <a href="Redesigning_Harvard/redesign.html" target="_blank" rel="noopener noreferrer">
+              <a href="redesign.html" target="_blank" rel="noopener noreferrer">
                 <h2 class="harvard">
                   Redesigning Harvard: Responsiveness Redesign
                 </h2>
@@ -107,7 +107,7 @@ export default class App extends React.Component {
                   <p>(If you are the professor of that website, well, no offense intended.)</p>
                 </div>
               </a>
-              <a href="Redesigning_Harvard/redesign.html" target="_blank" rel="noopener noreferrer">
+              <a href="redesign.html" target="_blank" rel="noopener noreferrer">
                 <img class="harvard_img" src="/images/harvard_logo.png" alt="blah" ></img>
               </a>
             </div>
