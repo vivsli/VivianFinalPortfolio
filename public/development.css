@@ -1,0 +1,62 @@
+/* Put your style information here! */
+.intro {
+
+    font-family: "Lucida Console", "Courier New", monospace;
+    
+
+}
+
+body {
+    background-color: rgb(127, 177, 124);
+    color: rgb(255, 241, 215); 
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.spacing {
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.pbox {
+    border-radius: 25px;
+    border: 2px solid #d0fffd;
+    padding: 30px;
+    max-width: 70%;
+  }
+
+  .wbox {
+    border-radius: 25px;
+    border: 2px solid #f1e8ff;
+    padding: 10px;
+    max-width: 50%;
+  }
+
+  .title {
+      text-decoration: underline;
+  }
+
+  a {
+      color: rgb(177, 255, 194);
+      font-size: large;
+      margin: 5px;
+  }
+
+.flex-column {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blue {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.center {
+    text-align: center;
+}

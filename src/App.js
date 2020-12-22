@@ -113,7 +113,7 @@ export default class App extends React.Component {
             </div>
 
             <div class="flex_column top_margin" id="action/3.2">
-              <a href="VivianIterative/iterative.html" target="_blank" rel="noopener noreferrer">
+              <a href="iterative.html" target="_blank" rel="noopener noreferrer">
                 <h2 class="iterative">
                   The Quell: Iterative Design
               </h2>
@@ -125,14 +125,14 @@ export default class App extends React.Component {
                   <p>allow users to purchase the product, and enable users to contact the company with any questions of feedback</p>                  
                 </div>
               </a>
-              <a href="VivianIterative/iterative.html" target="_blank" rel="noopener noreferrer" class="flex_column">
+              <a href="iterative.html" target="_blank" rel="noopener noreferrer" class="flex_column">
                 <img class="iterative_img" src="/images/Quell.png" alt="blah" ></img>
               </a>
 
             </div>
 
             <div class="flex_row top_margin" id="action/3.1">
-              <a href="Development_Handin/development.html" target="_blank" rel="noopener noreferrer">
+              <a href="development.html" target="_blank" rel="noopener noreferrer">
                 <h2 class="development">
                   My Art Cart: Creating my React App in Javascript
                 </h2>
@@ -142,14 +142,14 @@ export default class App extends React.Component {
                   <p>Well then, this should interest you ;)</p>
                 </div>
               </a>
-              <a href="Development_Handin/development.html" target="_blank" rel="noopener noreferrer" class="flex_column">
+              <a href="development.html" target="_blank" rel="noopener noreferrer" class="flex_column">
                 <img class="development_img" src="/images/Project3_Image.png" alt="blah" ></img>
               </a>
 
             </div>
 
             <div class="flex_row top_margin" id="action/3.0">
-              <a href="Personas/personas.html" target="_blank" rel="noopener noreferrer">
+              <a href="personas.html" target="_blank" rel="noopener noreferrer">
                 <h2 class="personas">
                   Friends of Mice: Personas and Storyboarding
                 </h2>
@@ -161,12 +161,12 @@ export default class App extends React.Component {
 
                 </div>
               </a>
-              <a href="Personas/personas.html" target="_blank" rel="noopener noreferrer" class="flex_column">
+              <a href="personas.html" target="_blank" rel="noopener noreferrer" class="flex_column">
                 <img class="personas_img" src="/images/color_mouse.jpg" alt="blah" ></img>
               </a>
             </div>
             <div class="flex_row top_margin" id="action/3.4">
-              <a href="ABtesting/abtesting.html" target="_blank" rel="noopener noreferrer">
+              <a href="abtesting.html" target="_blank" rel="noopener noreferrer">
                 <h2 class="abtesting">
                   A/B Testing
                 </h2>
@@ -176,7 +176,7 @@ export default class App extends React.Component {
                   <p> I let the stats speak for themselves</p>
                 </div>
               </a>
-              <a href="ABtesting/abtesting.html" target="_blank" rel="noopener noreferrer" class="flex_column">
+              <a href="abtesting.html" target="_blank" rel="noopener noreferrer" class="flex_column">
                 <img class="abtesting_img" src="/images/anime_pic.png" alt="blah" ></img>
               </a>
             </div>

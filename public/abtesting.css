@@ -1,0 +1,77 @@
+/* Put your style information here! */
+body {
+    background-color: rgb(209, 127, 201);
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: rgb(255, 241, 215); 
+    font-weight: bold;
+  }
+
+div {
+    display: inline-block;
+
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+ul {
+    font-size: larger;
+    font-weight: 500;
+}
+
+ol {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.title {
+    color: rgb(175, 232, 255);
+    text-shadow: -3px 4px #294a91;
+    padding: 15px; 
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.bg-main {
+    background-color:rgb(31, 82, 107);
+}
+
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxed {
+    border-radius: 25px;
+    border: 2px solid #cfb0ff;
+    padding: 20px;
+    max-width: 70%;
+}
+
+.smaller {
+    max-width: 60%;
+}
+

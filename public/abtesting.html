@@ -1,0 +1,116 @@
+<!doctype html>
+
+<html>
+
+<head>
+  <title> ABCs🌵</title>
+  <link rel="stylesheet" href="abtesting.css">
+  <!-- TODO: add additional links here! e.g. fonts, icons, more stylesh
+      eets, etc. -->
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+
+<body class="flex-column">
+  <h1 class="title">Knowing your ABC's</h1>
+  <h2 class="words"> For this project, I made two different changes to one website
+    and determined which change better fulfilled the given criteria. Here are the
+    steps I took to accomplish this:
+  </h2>
+  <div class="boxed">
+    <ol>
+      <li>I made two changes to the same website, thus creating two versions (A and B) and deployed the website
+        in such a way that each version of the website would each be shone to 50% of users, and deployed the
+        website to Heroku</li>
+      <li>I made predictions on how each of my website variations would perform under two criteria:
+        Time to Completion and Return Rate</li>
+      <li>I coded the statistical tests I would be using in Python</li>
+      <li>I extracted user data from my deployed websites and cleaned the data via Microsoft Excel</li>
+      <li>I ran my data logs through my python code to obtain the results of my t-test and chi-squared comparisons</li>
+    </ol>
+
+  </div>
+
+  <hr>
+
+  <div class="flex-column">
+    <h1 class="title">Making Changes</h1>
+
+    <div class="boxed">
+      <h2 class="words">The main difference between versions A and B is the pricing. Popular opinion
+        has it that having a price end in ".99" gives the illusion that an item is cheaper
+        so more people are likely to buy it.
+        To test whether this fact is true, I made the pricing of one website whole numbers (ie. $10)
+        and the pricing of another one cent less than it's counterpart (ie. $9.99)
+      </h2>
+      <div>
+        <h3>Whole Number Price Point</h3>
+        <div class="flex-column">
+          <img src="abtesting_images/whole_numbers.png" class="smaller">
+        </div>
+      </div>
+      <div>
+        <h3>Decimal Price Point</h3>
+        <div class="flex-column">
+          <img src="abtesting_images/decimal.png" class="smaller">
+        </div>
+      </div>
+    </div>
+
+    <h1 class="title">Making Hypotheses</h1>
+    <h2 class="words">I made two hypotheses; one for each criteria: Time to Completion and Return Rate.</h4>
+      <div class="words boxed">
+        <h3 class="words">Time to Completion: the time it takes to complete the desired task (in this case, order cacti)
+        </h3>
+        <h3 class="words">Return Rate: the number of times a user returned to the page</h3>
+      </div>
+      <h4 class="words">Time to Completion Hypothesis: Since the task was to put $150 worth of cacti into the cart,
+        I operated under the assumption that most users (aka our fellow classmates) would spam-click the
+        first button they saw. Setting the price of the first button to $10 means that the user would only
+        need to click the "Add to Cart" button 10 times. However, setting the price to $9.99 means that the
+        user would need to click the button 11 times. I hypothesize that this slight difference will result in
+        my "Whole Number Price Point" version to have a shorter Time to Completion
+      </h4>
+      <h4 class="words">Return Rate Hypothesis: Since return rate usually manifests itself as the user viewing the
+        cart and then returning to the main shopping screen, my prediction for return rate is based on the users
+        that I think are more likley to view the cart. Since decimal price points make it harder to calculate whether
+        a user has hit their $150 quota, I hypothesize that Decimal Price Point version users are more likely
+        to check the cart to view their price and return back to the home screen, thus having a higher rate
+        of return </h4>
+
+
+
+      <h1 class="title"> Data Collection</h1>
+      <div class="flex-column boxed">
+        <h2 class="words">In order to collect data, I deployed my website to Heroku and allowed users to access my
+          website
+          in order to add plants to their cart. Heroku automatically deploys version A 50% of the time and version B 50%
+          of the
+        </h2>
+      </div>
+
+      <h1 class="title">Results</h1>
+      <div class="flex-column boxed">
+        <h2 class="words">Here I present my results in the form of an infographic I made through Figma!</h2>
+      </div>
+      <div class="flex-column">
+        <img src="abtesting_images/Infographic ABTesting.png" class="smaller">
+      </div>
+
+      <h1 class="title">Takeaways</h1>
+      <ul class="words boxed">
+        <li>I think that my results would have been more compelling had I had a larger sample size. It's hard to
+          say whether my results are accurate or if a Type I or Type II error occurred because I have so little power
+          due to small sample size.
+        </li>
+        <li>Assuming that my results are valid, my experiments demonstrate that not all visible differences actually
+          ellicit
+          different behaviors in users.</li>
+      </ul>
+
+
+
+  </div>
+</body>
+
+
+</html>
