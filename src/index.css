@@ -56,6 +56,13 @@ li {
   max-width: 70%;
 }
 
+.gborder2 {
+  border-radius: 25px;
+  border: 5px solid   rgb(119, 119, 119);;
+  padding: 30px;
+  max-width: 90%;
+}
+
 .project_image{
   margin:5px;
   padding:3px;

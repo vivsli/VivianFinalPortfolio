@@ -5,7 +5,10 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
+import Card from 'react-bootstrap/Card';
+import CardDeck from 'react-bootstrap/Card';
+import CardGroup from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
 
 
@@ -96,90 +99,122 @@ export default class App extends React.Component {
               <h1 className="black"> Design Projects</h1>
             </div>
 
-
-            <div class="flex_column" id="action/3.3">
-              <a href="redesign.html" target="_blank" rel="noopener noreferrer">
-                <h2 class="harvard">
+<div class="flex_row">
+            <div className="spacing" id="action/3.3">
+            <Card style={{ width: '30rem' }} >
+  <Card.Img variant="top" src="/images/harvard_logo.png" />
+  <Card.Body>
+    <Card.Title><h2 class="harvard">
                   Redesigning Harvard: Responsiveness Redesign
-                </h2>
-                <div class="black">
-                  <p>I thought that my friend at Harvard's Theoretical Computer Science (typical.) class website could use a glow-up, so I delivered!</p>
-                  <p>(If you are the professor of that website, well, no offense intended.)</p>
+                </h2></Card.Title>
+    <Card.Text>
+    <div class="black">
+                  <p>I thought that my friend at Harvard's Theoretical Computer Science (typical.) class website could use a glow-up, so I delivered!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  (If you are the professor of that website, well, no offense intended.)</p>
                 </div>
-              </a>
-              <a href="redesign.html" target="_blank" rel="noopener noreferrer">
-                <img class="harvard_img" src="/images/harvard_logo.png" alt="blah" ></img>
-              </a>
+    </Card.Text>
+    <Button variant="primary" href="redesign.html" target="_blank" rel="noopener noreferrer">See More</Button>
+  </Card.Body>
+  <Card.Footer className="text-muted">Skills: Low to High Fi Prototyping, Responsive Web Redesign</Card.Footer>
+</Card>
             </div>
 
-            <div class="flex_column top_margin" id="action/3.2">
-              <a href="iterative.html" target="_blank" rel="noopener noreferrer">
-                <h2 class="iterative">
+            <div className="spacing" id="action/3.2">
+            <Card style={{ width: '30rem' }} >
+  <Card.Img variant="top" src="/images/Quell.png" />
+  <Card.Body>
+    <Card.Title><h2 class="iterative">
                   The Quell: Iterative Design
-              </h2>
-                <div class="black">
-                  <p>Using only The Quell's concept, a console that lets you game and exercise at the same time,
-                  </p>
-                  <p>my two friends and I designed our own website that could be used to promote the startup's product, 
-                  </p>
-                  <p>allow users to purchase the product, and enable users to contact the company with any questions of feedback</p>                  
+                </h2></Card.Title>
+    <Card.Text>
+    <div class="black">
+    <p>Using only The Quell's concept, a console that lets you game and exercise at the same time,
+                  my two friends and I designed our own website that could be used to promote the startup's product, 
+                  
+                  allow users to purchase the product, and enable users to contact the company with any questions or feedback.</p>              
                 </div>
-              </a>
-              <a href="iterative.html" target="_blank" rel="noopener noreferrer" class="flex_column">
-                <img class="iterative_img" src="/images/Quell.png" alt="blah" ></img>
-              </a>
-
+    </Card.Text>
+    <Button variant="primary" href="iterative.html" target="_blank" rel="noopener noreferrer">See More</Button>
+  </Card.Body>
+  <Card.Footer className="text-muted">Skills: User Testing, Interactive Mockups (Figma)</Card.Footer>
+</Card>
             </div>
 
-            <div class="flex_row top_margin" id="action/3.1">
-              <a href="development.html" target="_blank" rel="noopener noreferrer">
-                <h2 class="development">
-                  My Art Cart: Creating my React App in Javascript
-                </h2>
-                <div class="black">
-                  <p>Want to see some stuff I've drawn? Want to know when I drew it? What I drew it with? If it has won any awards?</p>
+
+            <div className="spacing" id="action/3.1"> 
+            <Card style={{ width: '30rem' }} >
+  <Card.Img variant="top" src="/images/Project3_Image.png" />
+  <Card.Body>
+    <Card.Title><h2 class="development">
+    My Art Cart: Creating my React App in Javascript
+                </h2></Card.Title>
+    <Card.Text>
+    <div class="black">
+    <p>Want to see some stuff I've drawn? 
+
+    </p>
+      <p>Want to know when I drew it?</p>
+      <p> What I drew it with? If it has won any awards? </p>
                   <p>Want to know how LONG it took me?</p>
-                  <p>Well then, this should interest you ;)</p>
+                  <p>Well then, this should interest you ;)</p>             
                 </div>
-              </a>
-              <a href="development.html" target="_blank" rel="noopener noreferrer" class="flex_column">
-                <img class="development_img" src="/images/Project3_Image.png" alt="blah" ></img>
-              </a>
-
+    </Card.Text>
+    <Button variant="primary" href="development.html" target="_blank" rel="noopener noreferrer">See More</Button>
+  </Card.Body>
+  <Card.Footer className="text-muted">Skills: React, Front-End Software Engineering</Card.Footer>
+</Card>
             </div>
-
-            <div class="flex_row top_margin" id="action/3.0">
-              <a href="personas.html" target="_blank" rel="noopener noreferrer">
-                <h2 class="personas">
-                  Friends of Mice: Personas and Storyboarding
-                </h2>
-                <div class="black">
-                  <p>How do you like your mice?</p>
-                  <p>Simple, with dash of tech saviness in the form of a wireless USB?</p>
+            <div className="spacing" id="action/3.0"> 
+            <Card style={{ width: '30rem' }} >
+  <Card.Img variant="top" src="/images/color_mouse.jpg" />
+  <Card.Body>
+    <Card.Title><h2 class="personas">
+    Friends of Mice: Personas and Storyboarding
+                </h2></Card.Title>
+    <Card.Text>
+    <div class="black">
+    <p>How do you like your mice?</p>
+                  <p>Simple, with dash of tech saviness with a wireless USB?</p>
                   <p>Luxurious, with a sturdy wirecord as an appetizer, 8 rebindable buttons for the main course, and a splash of RGB LED lights for dessert?</p>
-                  <p> Through this project, I investigated the different kinds of computer mice users and created personas and storyboards based on my interviews of real people</p>
+                  <p> Through this project, I investigated the different kinds of computer mice users and created personas and storyboards based on my interviews of real people</p>       
+                </div>
+    </Card.Text>
+    <Button variant="primary" href="personas.html" target="_blank" rel="noopener noreferrer">See More</Button>
+  </Card.Body>
+  <Card.Footer className="text-muted">Skills: User Research, Personas, Storyboarding</Card.Footer>
+</Card>
+            </div>
 
-                </div>
-              </a>
-              <a href="personas.html" target="_blank" rel="noopener noreferrer" class="flex_column">
-                <img class="personas_img" src="/images/color_mouse.jpg" alt="blah" ></img>
-              </a>
-            </div>
-            <div class="flex_row top_margin" id="action/3.4">
-              <a href="abtesting.html" target="_blank" rel="noopener noreferrer">
-                <h2 class="abtesting">
-                  A/B Testing
-                </h2>
-                <div class="black">
-                  <p> People say that stores use the price tag $9.99 instead of $10 because it makes it looks cheaper</p>
+            <div className="spacing" id="action/3.4"> 
+            <Card style={{ width: '30rem' }} >
+  <Card.Img variant="top" src="/images/anime_pic.png" />
+  <Card.Body>
+    <Card.Title><h2 class="abtesting">
+    $9.99 vs $10: A/B Testing
+                </h2></Card.Title>
+    <Card.Text>
+    <div class="black">
+    <p> People say that stores use the price tag $9.99 instead of $10 because it makes it looks cheaper</p>
                   <p> But is this really true? Are online shoppers REALLY more likely to buy items with the first price tag?</p>
-                  <p> I let the stats speak for themselves</p>
+                  <p> I let the stats speak for themselves</p>     
                 </div>
-              </a>
-              <a href="abtesting.html" target="_blank" rel="noopener noreferrer" class="flex_column">
-                <img class="abtesting_img" src="/images/anime_pic.png" alt="blah" ></img>
-              </a>
+    </Card.Text>
+    <Button variant="primary" href="abtesting.html" target="_blank" rel="noopener noreferrer">See More</Button>
+  </Card.Body>
+  <Card.Footer className="text-muted">Skills: Significance Testing, Parsing/Cleaning User Logs</Card.Footer>
+</Card>
             </div>
+            
+            
+
+
+            </div>           
+
+            
+           
           </div>
           <div class="projects flex_column top_margin" id="action/2.3">
             <div className=" top_margin ">
