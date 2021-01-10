@@ -260,3 +260,17 @@ li {
 .film{
   color: #1ca89f;
 }
+
+.icon {
+  max-width: 20%;
+}
+
+.jumbo {
+  background-color: #e9ffff;
+}
+
+.art {
+  max-width: 70%;
+  border-radius: 25px;
+  border: 5px solid #ffae00;
+}

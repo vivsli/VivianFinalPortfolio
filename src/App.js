@@ -6,8 +6,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Card from 'react-bootstrap/Card';
-import CardDeck from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
 
@@ -35,6 +33,14 @@ export default class App extends React.Component {
               </NavDropdown>
               <NavDropdown title="3D Animation Projects" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/2.3">Always Right Short Film</NavDropdown.Item>
+                <NavDropdown.Item href="#action/2.4">3D Modelling My Watch</NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown title="Art Work" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/1.1">Harold Parker Forest</NavDropdown.Item>
+                <NavDropdown.Item href="#action/1.2">Black Cloud</NavDropdown.Item>
+                <NavDropdown.Item href="#action/1.3">A Flash of Life</NavDropdown.Item>
+                <NavDropdown.Item href="#action/1.4">Off Stage</NavDropdown.Item>
+                <NavDropdown.Item href="#action/1.5">Red</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="#resume"><a href="vivians_resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></Nav.Link>
             </Nav>
@@ -56,6 +62,7 @@ export default class App extends React.Component {
             <img src="/images/pencil.png" alt="blah" class="pencil spacing" />
           </div>
 
+          
           <div class="spacing top_margin black flex_column" id="link">
             <h1>About Me</h1>
             <p class="gborder ">I am currently a junior at Brown University studying Computer Science and Psychology with a minor in Education!
@@ -84,7 +91,7 @@ export default class App extends React.Component {
 
                     <li>encourage student-led learning</li>
                   </ul>
-
+                 
                 </div>
 
               </div>
@@ -94,21 +101,21 @@ export default class App extends React.Component {
 
 
 
-          <div class="projects flex_column" >
+          <div class="projects flex_column jumbo" >
             <div className=" top_margin ">
               <h1 className="black"> Design Projects</h1>
             </div>
 
-<div class="flex_row">
-            <div className="spacing" id="action/3.3">
-            <Card style={{ width: '30rem' }} >
-  <Card.Img variant="top" src="/images/harvard_logo.png" />
-  <Card.Body>
-    <Card.Title><h2 class="harvard">
-                  Redesigning Harvard: Responsiveness Redesign
-                </h2></Card.Title>
-    <Card.Text>
-    <div class="black">
+                  <div class="flex_row">
+                              <div className="spacing" id="action/3.3">
+                              <Card style={{ width: '30rem' }} >
+                    <Card.Img variant="top" src="/images/harvard_logo.png" />
+                    <Card.Body>
+                      <Card.Title><h2 class="harvard">
+                                    Redesigning Harvard: Responsiveness Redesign
+                                  </h2></Card.Title>
+                      <Card.Text>
+                      <div class="black">
                   <p>I thought that my friend at Harvard's Theoretical Computer Science (typical.) class website could use a glow-up, so I delivered!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -216,16 +223,64 @@ export default class App extends React.Component {
             
            
           </div>
-          <div class="projects flex_column top_margin" id="action/2.3">
+          <div class="projects flex_column top_margin" >
             <div className=" top_margin ">
               <h1 className="black"> 3D Animation Projects</h1>
             </div>
-            <h2 class="film top_margin">
-                  Always Right: A Short Film
+            <div id="action/2.3">
+              <h2 class="film top_margin">
+                Always Right: A Short Film
               </h2>
-            <iframe title="alwaysright" width="1280" height="720"
-                src="https://www.youtube.com/embed/BPSvNsn7N08">
-            </iframe>
+              <iframe title="alwaysright" width="1280" height="720"
+                src="https://www.youtube.com/embed/BPSvNsn7N08?autoplay=1">
+              </iframe>
+            </div>
+            <div id="action/2.4">
+              <h2 class="film top_margin">
+                My Watch: A 3D Model
+              </h2>
+              <iframe title="mywatch" width="1280" height="720"
+                src="https://www.youtube.com/embed/TSO2lOmohsQ?autoplay=1">
+              </iframe>
+            </div>
+          </div>
+          <div class="projects flex_column top_margin" >
+            <div className=" top_margin ">
+              <h1 className="black"> Art Work</h1>
+            </div>
+            <div id="action/1.1" class="flex_column">
+              <h2 class="top_margin">
+                Harold Parker Forest
+              </h2>
+              <img className="art" src="/images/Forest.jpg" alt="blah" />
+            </div>
+            <div id="action/1.2" class="flex_column">
+              <h2 class="top_margin">
+                Black Cloud
+              </h2>
+              <img className="art" src="/images/Black.jpg" alt="blah" />
+            </div>
+            <div id="action/1.3" class="flex_column">
+              <h2 class="top_margin">
+                A Flash of Life
+              </h2>
+              <img className="art" src="/images/Flash.jpg" alt="blah" />
+            </div>
+            <div id="action/1.4" class="flex_column">
+              <h2 class="top_margin">
+                Off Stage
+              </h2>
+              <img className="art" src="/images/Stage.jpg" alt="blah" />
+            </div>
+            <div id="action/1.5" class="flex_column">
+              <h2 class="top_margin">
+                Red
+              </h2>
+              <img className="art" src="/images/Red.jpg" alt="blah" />
+            </div>
+            <div>
+              <a href="https://sites.google.com/view/vivsliportfolio"><h3>To see more, come look at my art portfolio!</h3></a>
+            </div>
           </div>
         </div>
       </div>
