@@ -69,6 +69,8 @@ export default class App extends React.Component {
             You might be wondering what exactly is between being a designer and a teacher. Allow me to explain: my approach to design is largely pedagogical!
             Inspired by my 6 years of teaching 18 students, I realized that designing user experience is largely like lesson-planning:
             it should be engaging(captivating), contextualized(intuitive), and ultimately student-led(user-centered).
+
+            <p>In addition to being a designer, I also aspire to work in the educational technology industry as another fusion of my two passions.</p>
           
             <div class="flex_row spacing top_margin2">
                 <div class="flex_column dark">
