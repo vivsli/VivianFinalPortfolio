@@ -31,7 +31,7 @@ export default class App extends React.Component {
                 <NavDropdown.Item href="#action/3.0">Friends of Mice</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.4">A/B Testing</NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown title="3D Animation Projects" id="basic-nav-dropdown">
+              <NavDropdown title="3D Modelling and Animation Projects" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/2.3">Always Right Short Film</NavDropdown.Item>
                 <NavDropdown.Item href="#action/2.4">3D Modelling My Watch</NavDropdown.Item>
               </NavDropdown>
@@ -231,6 +231,8 @@ export default class App extends React.Component {
               <h2 class="film top_margin">
                 Always Right: A Short Film
               </h2>
+              <p>Timeline: Nov 2020 - Dec 2020</p>
+              <p>Software: Maya + Arnold</p>
               <iframe title="alwaysright" width="1280" height="720"
                 src="https://www.youtube.com/embed/BPSvNsn7N08?autoplay=1">
               </iframe>
@@ -239,9 +241,19 @@ export default class App extends React.Component {
               <h2 class="film top_margin">
                 My Watch: A 3D Model
               </h2>
+              <p>Timeline: Sept 2020 - Oct 2020</p>
+              <p>Software: Maya + Arnold</p>
               <iframe title="mywatch" width="1280" height="720"
                 src="https://www.youtube.com/embed/TSO2lOmohsQ?autoplay=1">
               </iframe>
+            </div>
+            <div class="flex_row space">
+              <img class="watchpic" src="/images/SkagenFullFront.jpg" alt="blah" />
+              <img class="watchpic" src="/images/WatchBack.jpg" alt="blah" />
+              <img class="watchpic" src="/images/WatchFace.jpg" alt="blah" />
+              <img class="watchpic" src="/images/SkagenClasp.jpg" alt="blah" />
+              <img class="watchpic" src="/images/OtherClasp.jpg" alt="blah" />
+              <img class="watchpic" src="/images/SkagenClaspSide.jpg" alt="blah" />
             </div>
           </div>
           <div class="projects flex_column top_margin" >

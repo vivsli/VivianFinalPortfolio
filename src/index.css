@@ -274,3 +274,25 @@ li {
   border-radius: 25px;
   border: 5px solid #ffae00;
 }
+
+.watchpic {
+  border-radius: 25px;
+  max-width: 45%;
+  border: 5px solid #ffae00;
+  margin: 5px;
+}
+
+
+.watchpic {
+    transition:transform 0.25s ease;
+}
+
+.watchpic:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+}
+
+.space{
+  justify-content: space-around;
+  justify-content: center;
+}
