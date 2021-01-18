@@ -47,7 +47,7 @@ export default class App extends React.Component {
           </Navbar.Collapse>
         </Navbar>
 
-        <div> <h1> For my updated website, please go to <a href="vivsli.com" target="_blank" rel="noopener noreferrer">vivsli.com</a></h1></div>
+        <div> <h1> For my updated website, please go to <a href="https://www.vivsli.com">vivsli.com</a></h1></div>
         <div class="flex_column">
           <div class="flex_row">
             <img src="/images/paintbrush.png" alt="blah" class="decor" />
